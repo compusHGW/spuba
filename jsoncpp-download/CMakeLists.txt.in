@@ -3,7 +3,7 @@ CMAKE_MINIMUM_REQUIRED (VERSION 3.0)
 include(ExternalProject)
 ExternalProject_Add( project_jsoncpp
 		GIT_REPOSITORY "https://github.com/open-source-parsers/jsoncpp.git"
-		GIT_SHALLOW 1
+		#GIT_SHALLOW 1
 		BUILD_ALWAYS 0
 		SOURCE_DIR ${CMAKE_BINARY_DIR}/jsoncpp-src
 		BINARY_DIR ${CMAKE_BINARY_DIR}/jsoncpp-build
