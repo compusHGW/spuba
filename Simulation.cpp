@@ -110,7 +110,7 @@ void Simulation::run() {
 
     cout << "\n Different rand num? " << RNG() << "\n" << endl;
 
-    Yield y = read_yield("/home/guba/CLionProjects/spuba/input.json", wall, feedgas);
+    Yield y = read_yield("../input.json", wall, feedgas);
 
     cout << "Feedgas: " << feedgas << endl;
     cout << "Wall Material: " << wall << endl;
@@ -141,7 +141,7 @@ void Simulation::run() {
 
     /* Source */
     cout << "Initializing source..." << endl;
-    ParticleSource source = read_source_file("/home/guba/CLionProjects/spuba/source.json", source_type);
+    ParticleSource source = read_source_file("../source.json", source_type);
     cout << "Source with type: \"" << source.getType() << "\" loaded" << endl;
 
     source.init("0");
