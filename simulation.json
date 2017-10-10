@@ -1,0 +1,112 @@
+{
+  "simulation": {
+    "name": "4 thruster test",
+    "TESTCHAMBER": {
+      "geometry": [
+        {
+          "type": "TUBE",
+          "name": "CYL_WALL",
+          "position" : {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "orientation" : {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1
+          },
+          "radius": 1.2,
+          "length": 1.65
+        }
+      ]
+    },
+    "THRUSTERS" : [
+      {
+        "name" : "thruster_01",
+        "geometry": [
+          {
+            "type" :"CYLINDER",
+            "name": "thruster_01_cyl",
+            "position" : {
+              "x": 0.3,
+              "y": 0.3,
+              "z": -0.09
+            },
+            "orientation" : {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1
+            },
+            "radius": 0.045,
+            "length": 0.09
+          }
+        ]
+      },
+      {
+        "name" : "thruster_02",
+        "geometry": [
+          {
+            "type" :"CYLINDER",
+            "name": "thruster_02_cyl",
+            "position" : {
+              "x": 0.3,
+              "y": -0.3,
+              "z": -0.09
+            },
+            "orientation" : {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1
+            },
+            "radius": 0.045,
+            "length": 0.09
+          }
+        ]
+      },
+      {
+        "name" : "thruster_03",
+        "geometry": [
+          {
+            "type" :"CYLINDER",
+            "name": "thruster_03_cyl",
+            "position" : {
+              "x": -0.3,
+              "y": -0.3,
+              "z": -0.09
+            },
+            "orientation" : {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1
+            },
+            "radius": 0.045,
+            "length": 0.09
+          }
+        ]
+      }
+    ,
+      {
+        "name" : "thruster_04",
+        "geometry": [
+          {
+            "type" :"CYLINDER",
+            "name": "thruster_04_cyl",
+            "position" : {
+              "x": -0.3,
+              "y": 0.3,
+              "z": -0.09
+            },
+            "orientation" : {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 1
+            },
+            "radius": 0.045,
+            "length": 0.09
+          }
+        ]
+      }
+    ]
+  }
+}

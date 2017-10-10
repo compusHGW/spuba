@@ -1,0 +1,25 @@
+{
+  "sources": [
+    {
+      "type": "beam",
+      "number_of_angle_bins": 19, // NP
+      "delta_angle_theta": 5, // DTH = 5°
+      "current_density": [0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], // current density
+      "energy": [0.0, 0.0, 0.0, 900.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], // mean energy of particles
+      "fraction": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+        0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0], // fraction = (x)++/(x)+
+      "constant_phi": 30 // fixed phi for all particles to get a beam
+    },
+    {
+      "type": "IEPC2017",
+      "number_of_angle_bins": 19, // NP
+      "delta_angle_theta": 5, // DTH = 5°
+      "current_density": [1.0, 0.7,0.55,0.375,0.3,0.225,0.125,0.09,0.07,
+        0.055,0.045,0.04,0.035,0.03,0.025,0.02,0.015,0.01,0.01], // current density [Ampere / square meter]
+      "energy": [275, 400, 550, 400, 275, 250,248,246,244,242,240,238,236,234,232,230,228,226,224], // mean energy of particles [electronvolt]
+      "fraction": [	0.30, 0.31, 0.32,0.33,0.37,0.40,0.36,0.30,0.255,0.22,0.19,0.17,0.12,0.08,0.05,0.03,0.02,0.01,0.01] // fraction = (x)++/(x)+
+    }
+  ]
+}
