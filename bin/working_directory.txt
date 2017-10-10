@@ -1,0 +1,3 @@
+bin folder
+should contain the executable "depos.x"
+and the folders "out" and "images"
